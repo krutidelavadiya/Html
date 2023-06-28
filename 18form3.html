@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="backand.html" method="post">
+        <table>
+                <tr>
+                    <td><label for="Username">Username:</label></td>
+                    <td><input type="text" id="Username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="city of emp">City of emp:</label></td>
+                    <td><input type="text" id="city of emp"></td>
+                </tr>
+                <tr>
+                    <td><label for="Web server">Web server:</label></td>
+                    <td><select>
+                        <option value="none">choos a server</option>
+                        <option value="HTTP server">HTTP server</option>
+                        <option value="Nginx">Nginx</option>
+                        <option value="Lighttpd">Lighttpd</option>
+                        <option value="Apache tomcat">Apache tomcat</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="please specify your role">please specify your role:</label></td>
+                    <td><input type="radio" name="role">Admin<br>
+                    <input type="radio" name="role">Engineer<br>
+                    <input type="radio" name="role">Manager<br>
+                    <input type="radio" name="role">Guest</td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="Single sign on to following">Single sign on to following</label></td>
+                    <!-- <td><select>
+                        <option value="Mail">Mail</option><br>
+                        <option value="payroll">payroll</option><br>
+                        <option value="Self-service">Self-service</option>
+                    </select></td> -->
+                    <td><input type="checkbox">Mail<br>
+                    <input type="checkbox">payroll<br>
+                    <input type="checkbox">Self-service</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button name="Reset">Reset</button><button name="login">login</button></td>
+                </tr>
+        </table>
+    </form>
+</body>
+</html>
